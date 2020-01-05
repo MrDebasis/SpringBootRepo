@@ -40,7 +40,7 @@ public class ProductController {
 	    public Optional<ProductEntity> searchProduct(@PathVariable int id) {
 	        return productService.find(id);
 	    }
-	 @RequestMapping(method = RequestMethod.PUT,value ="")
+	 @RequestMapping(method = RequestMethod.PUT,value ="/update/{id}")
 	    public String updateProduct(@RequestBody ProductEntity product) {
 	        productService.updateProduct(product);
 			return "Item added sucessfully"+product;   
