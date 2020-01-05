@@ -1,0 +1,6 @@
+com\example\service\ProductService.class
+com\example\repo\impl\ProductRepo.class
+com\example\object\Product.class
+com\example\restcontroller\ProductController.class
+com\example\repo\entity\ProductEntity.class
+com\example\ProductManagementSystemApplication.class
